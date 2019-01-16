@@ -1,0 +1,6 @@
+/Users/Noha/Desktop/practice/Lab4/Lab4/bin/Debug/Lab4.exe
+/Users/Noha/Desktop/practice/Lab4/Lab4/bin/Debug/Lab4.pdb
+/Users/Noha/Desktop/practice/Lab4/Lab4/obj/x86/Debug/Lab4.csprojAssemblyReference.cache
+/Users/Noha/Desktop/practice/Lab4/Lab4/obj/x86/Debug/Lab4.csproj.CoreCompileInputs.cache
+/Users/Noha/Desktop/practice/Lab4/Lab4/obj/x86/Debug/Lab4.exe
+/Users/Noha/Desktop/practice/Lab4/Lab4/obj/x86/Debug/Lab4.pdb
