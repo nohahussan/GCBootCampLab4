@@ -8,7 +8,7 @@ namespace Lab4
     {
         public static void Main(string[] args)
         {
-            Boolean choice =true;//To check if the user would like to continue
+            Boolean choice =true;//To check if the user would like to continue running the program another time
 
             while (choice)
             {
@@ -19,24 +19,23 @@ namespace Lab4
                 string input = Console.ReadLine();
                 //convert the input to an integer
                 int userInput = int.Parse(input);
-                //declear an empty array with size = the entered
+                //declear an empty array with size = the value that the user entered
                 double[] array = new double[userInput];
-                //loop to initial the array with value started from 1 to the value the user entered
+                //loop to intialize the array with value started from 1 to user input
                 for (int i = 0; i < userInput; i++)
                 {
                     array[i] = i + 1;
                 }
 
-                //declare and inililize an array with squared values
+                //declare and intialize an array with squared values
                 double[] arraySq = new double[userInput];
                 for (int i = 0; i < arraySq.Length; i++)
                 {
                     arraySq[i] = Math.Pow(array[i], 2);
                 }
 
-                //declare and inililize an array with cubed values
+                //declare and intialize an array with cubed values
                 double[] arrayCub = new double[userInput];
-
                 for (int i = 0; i < arrayCub.Length; i++)
                 {
                     arrayCub[i] = Math.Pow(array[i], 3);
@@ -44,7 +43,7 @@ namespace Lab4
                 //calling FormatingOutput to formate the output 
                 FormatingOutput(array, arraySq, arrayCub);
 
-                //asking user if he/she wants to continue
+                //asking the user if he/she wants to continue
                 Console.WriteLine("Continue ? (y/n)");
                 string userChoice = (Console.ReadLine()).ToLower();
                 if (userChoice == "n")
